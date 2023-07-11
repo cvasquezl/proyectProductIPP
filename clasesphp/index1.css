@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right, rgba(168,237,234,1), rgba(254,214,227,1))
+}
+.titulo{
+    position: absolute;
+    margin-top: 220px;
+}
+.formulario{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}  
+.interes{
+    position: absolute;
+    margin-top: 250px; 
+}
+#boton{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 155px;
+}

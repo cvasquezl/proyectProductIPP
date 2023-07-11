@@ -1,0 +1,41 @@
+body{
+    background-image: url(./imagen/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-family: 'Capriola', sans-serif;
+    color: antiquewhite;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 2px solid black;
+
+}
+.parrafo{
+    border-radius: 15px;
+    background-color: #8294C4;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+p{
+    font-family: 'Capriola', sans-serif;
+    color: antiquewhite;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+    
+    
+}
+.dropdown {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.boton {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+
+

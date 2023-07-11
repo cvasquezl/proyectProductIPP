@@ -1,0 +1,255 @@
+/* hoja de estilos modelo cascada */
+/* estas son las propiedades generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* estilos del body donde tiene un color negro un fuente y oculta el scroll horizontal */
+body {
+  background-color: black;
+  font-family: "Klee One", cursive;
+  overflow-x: hidden;
+}
+/* estilos de navbar */
+.navbar {
+  background-color: aqua;
+}
+/* color de las anclas */
+a {
+  color: black;
+}
+/* estilos para la imagen de inicio */
+.inicio {
+  height: 500px;
+  background-image: url(./imagen/inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* opacidad para que se ponga sobre la imagen y por debajo del h1 de la imagen */
+.opacity {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 500px;
+}
+/* estilos del primer h1 */
+.inicio-text1 {
+  font-size: 63px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+}
+/* estilos del segundo h1 */
+.inicio-text2 {
+  font-size: 63px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Fondo semitransparente para el texto */
+  color: #fff; /* Color del texto */
+  padding: 10px;
+  font-weight: bold;
+}
+/* estilos de tercer h1 */
+.inicio-text3 {
+  font-size: 63px;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  color: #fff;
+}
+/* estilos de titulo de lo que nos emociona */
+#titulo2 {
+  margin-bottom: 20px;
+}
+/* color y espacio que se le entrega a los parrafos */
+.parrafos {
+  background-color: white;
+  width: 101%;
+  padding: 30px;
+}
+/* redondeo de los borde de los parrafos */
+p {
+  border-radius: 10px;
+}
+/* estilos de cada parrafo con sus colores degradados fuente y tamaño de letra */
+.parrafo1 {
+  /* fallback for old browsers */
+  background: #ff9a9e;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(255, 154, 158, 1),
+    rgba(250, 208, 196, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(255, 154, 158, 1),
+    rgba(250, 208, 196, 1)
+  );
+
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: "Courgette", cursive;
+  font-size: 17px;
+}
+.parrafo2 {
+  margin-bottom: 15px;
+  /* fallback for old browsers */
+  background: #a8edea;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(168, 237, 234, 1),
+    rgba(254, 214, 227, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to left,
+    rgba(168, 237, 234, 1),
+    rgba(254, 214, 227, 1)
+  );
+
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: "Kalam", cursive;
+  font-size: 19px;
+}
+.parrafo3 {
+  /* fallback for old browsers */
+  background: #d299c2;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(210, 153, 194, 1),
+    rgba(254, 249, 215, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to left,
+    rgba(210, 153, 194, 1),
+    rgba(254, 249, 215, 1)
+  );
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+.parrafo4 {
+  /* fallback for old browsers */
+  background: #37ecba;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(55, 236, 186, 1),
+    rgba(114, 175, 211, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to left,
+    rgba(55, 236, 186, 1),
+    rgba(114, 175, 211, 1)
+  );
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+}
+.parrafo5 {
+  /* fallback for old browsers */
+  background: #fbc2eb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(251, 194, 235, 1),
+    rgba(166, 193, 238, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to left,
+    rgba(251, 194, 235, 1),
+    rgba(166, 193, 238, 1)
+  );
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: "Zeyada", cursive;
+  font-size: 25px;
+}
+
+/*estilos que asignan a la imagen  del costado de los parrafos  */
+
+.brother {
+  background-size: cover;
+  background-color: white;
+  display: flex;
+}
+/* estilos que se le da a la imagen en si para que este al costado derecho */
+.section2img {
+  margin-left: 25px;
+  float: left;
+  width: 500px;
+}
+/* estilos que se les da al espacio de la galeria */
+.galeria1 {
+  background-color: #253540;
+  height: 980px;
+  display: flex;
+  justify-content: center;
+}
+/*titulo de galeria  */
+#titulo3 {
+  margin-top: 10px;
+  color: #fff;
+}
+/* estilos de las imagenes para que tengas cada una su espacio */
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* aqui le indicamos a las imagenes que sean rectangulares con bordes redondeados y su tamaño para que no ocupen todo el espacio  */
+.imagenescuadradas {
+  width: 380px;
+  height: 380px;
+  border-radius: 15px;
+}
+/* estilos que se les da a las imagenes circulares en donde le indicamos su tamaño y con el borde radius al 50% logramos hacerlas circulares */
+.imagenescirculares {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+/* estilos para el espacio y orden de carrusel */
+.carrusel {
+  background-color: #63d3ff;
+  display: flex;
+  align-items: center;
+}
+/* tamaño que le damos al carrusel */
+#carouselExampleRide {
+  width: 1920px;
+  height: 600px;
+  margin: 0 auto;
+}
+/* estilos que le aplicamos a las imagenes del carrusel */
+#carouselExampleRide .carousel-item img {
+  height: 600px;
+  background-size: cover;
+}
+/* estilos que le aplicamos al footer */
+.pies {
+  margin-top: 61px;
+  background-color: aqua;
+}

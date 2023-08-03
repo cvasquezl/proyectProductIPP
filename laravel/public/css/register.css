@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(to right, rgba(168,237,234,1), rgba(254,214,227,1));
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.logo{
+    height: 190px;
+    width: 190px;
+    margin-top: 30px;
+}
+.registro{
+    position: absolute;
+    top: 200px;
+}
